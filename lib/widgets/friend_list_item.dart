@@ -37,7 +37,10 @@ class FriendListItem extends StatelessWidget {
         ),
         subtitle: Text(
           events > 0 ? 'Upcoming events: $events' : 'No events upcoming',
-          style: const TextStyle(fontFamily: "Poppins"),
+          style: TextStyle(
+            fontFamily: "Poppins",
+            color: events > 0 ? green[600] : red[600],
+          ),
         ),
         trailing: const Icon(Icons.chevron_right),
         onTap: () {},
