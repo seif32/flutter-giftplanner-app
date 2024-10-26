@@ -3,16 +3,16 @@ import 'package:hedieaty/utils/colors.dart';
 import 'package:hedieaty/widgets/event_list.dart';
 import 'package:hedieaty/widgets/event_sort_menu.dart';
 
-class EventListScreen extends StatefulWidget {
-  const EventListScreen({super.key});
+class EventScreen extends StatefulWidget {
+  const EventScreen({super.key});
 
   @override
-  State<EventListScreen> createState() {
-    return _EventListScreenState();
+  State<EventScreen> createState() {
+    return _EventScreenState();
   }
 }
 
-class _EventListScreenState extends State<EventListScreen> {
+class _EventScreenState extends State<EventScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

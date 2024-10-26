@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hedieaty/screens/event_list_screen.dart';
+import 'package:hedieaty/screens/event_screen.dart';
+import 'package:hedieaty/screens/gift_screen.dart';
 import 'package:hedieaty/screens/home_screen.dart';
+import 'package:hedieaty/widgets/gift_card.dart';
+import 'package:hedieaty/widgets/gift_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: EventListScreen(),
+        body: GiftScreen(),
       ),
     );
   }
